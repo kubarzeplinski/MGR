@@ -15,3 +15,12 @@
 \contentsline {section}{\numberline {2.2}Wyniki przegl\IeC {\k a}du}{5}{section.2.2}
 \contentsline {section}{\numberline {2.3}Kolejna sekcja}{5}{section.2.3}
 \contentsline {chapter}{\numberline {3}Serwis spo\IeC {\l }eczno\IeC {\'s}ciowy Twitter}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Historia}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}Tweet}{7}{section.3.2}
+\contentsline {section}{\numberline {3.3}Architektura}{7}{section.3.3}
+\contentsline {section}{\numberline {3.4}API}{8}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Zakres dzia\IeC {\l }ania}{8}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Rejestracja}{8}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Spos\IeC {\'o}b dzia\IeC {\l }ania}{8}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Ograniczenia}{9}{subsection.3.4.4}
+\contentsline {section}{\numberline {3.5}Dost\IeC {\k e}pne narz\IeC {\k e}dzia analityczne}{9}{section.3.5}
