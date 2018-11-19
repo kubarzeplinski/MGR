@@ -22,5 +22,13 @@
 \contentsline {subsection}{\numberline {3.4.1}Zakres dzia\IeC {\l }ania}{8}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Rejestracja}{8}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {3.4.3}Spos\IeC {\'o}b dzia\IeC {\l }ania}{8}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Ograniczenia}{9}{subsection.3.4.4}
-\contentsline {section}{\numberline {3.5}Dost\IeC {\k e}pne narz\IeC {\k e}dzia analityczne}{9}{section.3.5}
+\contentsline {subsection}{\numberline {3.4.4}Ograniczenia}{10}{subsection.3.4.4}
+\contentsline {section}{\numberline {3.5}Dost\IeC {\k e}pne narz\IeC {\k e}dzia analityczne}{10}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Twitter Analytics}{10}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Hootsuite}{10}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Mentionmap}{13}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Podsumowanie}{14}{subsection.3.5.4}
+\contentsline {chapter}{\numberline {4}Analiza danych Big Data}{17}{chapter.4}
+\contentsline {section}{\numberline {4.1}Poj\IeC {\k e}cie Big Data}{17}{section.4.1}
+\contentsline {section}{\numberline {4.2}Charakterystyka}{17}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Obj\IeC {\k e}to\IeC {\'s}\IeC {\'c}}{17}{subsection.4.2.1}
