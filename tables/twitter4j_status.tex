@@ -1,0 +1,30 @@
+\begin{table}
+\centering
+\caption{Dokumentacja interfejsu Status}
+\label{tab:table1}
+\begin{tabularx}{\linewidth}{|c|c|X|}\toprule
+    Typ zwracany & Nazwa metody & Opis \\ \midrule
+    long[] & getContributors() & \\ \midrule
+    java.util.Date & getCreatedAt() & zwraca datę utworzenia wiadomości \\ \midrule 
+    long & getCurrentUserRetweetId() & zwraca id użytkownika, którego wiadomość została podana dalej \\ \midrule
+    int & getDisplayTextRangeEnd() & \\ \midrule 
+    int & getDisplayTextRangeStart() & \\ \midrule
+    int & getFavoriteCount() & zwraca informację ile razy została polubiona wiadomość \\ \midrule
+    GeoLocation & getGeoLocation() & zwraca lokalizację użytkownika zamieszczającego tą wiadomość \\ \midrule 
+    long & getId() & zwraca id wiadomości \\ \midrule
+    java.lang.String & getInReplyToScreenName() & zwraca nazwę użytkownika, do którego kierowana jest odpowiedź \\ \midrule
+    long & getInReplyToStatusId() & zwraca id wiadomości, do którego kierowana jest odpowiedź \\ \midrule 
+    java.lang.String & getLang() & zwraca język zamieszczonej wiadomości \\ \midrule
+    Place & getPlace() & zwraca obiekt Place przypisany do tej wiadomości \\ \midrule 
+    Status & getQuotedStatus() & zwraca obiekt Status cytowanej wiadomości \\ \midrule
+    long & getQuotedStatusId() & zwraca id cytowanej wiadomości \\ \midrule
+    URLEntity & getQuotedStatusPermalink() & zwraca obiekt URLEntity reprezentujący bezpośredni odnośnik do cytowanej wiadomości \\ \midrule
+    int & getRetweetCount() & zwraca ile razy wiadomość została podana dalej \\ \midrule
+    Status & getRetweetedStatus()  & zwraca oryginalny status, który jest podany dalej w tej wiadomości \\ \midrule
+    Scopes & getScopes() & zwraca obiekt typu Scopes posiadający informację o id miejsc, do których odnosi się ta wiadomość \\ \midrule
+    java.lang.String & getSource() & zwraca źródło wiadomości \\ \midrule
+    java.lang.String & getText() & zwraca tekst wiadomości \\ \midrule
+    User & getUser() & zwraca obiekt typu User powiązany z tą wiadomością \\ \midrule
+    java.lang.String[] & getWithheldInCountries() & zwraca tablicę nazw krajów, w których wiadomość została wstrzymana \\ \midrule
+\end{tabularx}
+\end{table}
