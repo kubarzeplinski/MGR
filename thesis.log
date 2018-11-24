@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300) (preloaded format=pdflatex 2018.11.4)  19 NOV 2018 19:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300) (preloaded format=pdflatex 2018.11.4)  24 NOV 2018 17:42
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1629,13 +1629,13 @@ LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 4.
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 (front_matter/titlepage.tex
-<img/pw_header.png, id=111, 1209.318pt x 197.538pt>
+<img/pw_header.png, id=159, 1209.318pt x 197.538pt>
 File: img/pw_header.png Graphic file (type png)
  <use img/pw_header.png>
 Package pdftex.def Info: img/pw_header.png used on input line 7.
 (pdftex.def)             Requested size: 455.24411pt x 74.3599pt.
 
-<img/pw_title.png, id=112, 483.8075pt x 105.39375pt>
+<img/pw_title.png, id=160, 483.8075pt x 105.39375pt>
 File: img/pw_title.png Graphic file (type png)
  <use img/pw_title.png>
 Package pdftex.def Info: img/pw_title.png used on input line 16.
@@ -1692,10 +1692,7 @@ LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <10.95> not available
 
  [7
 
-]) [8
-
-
-]
+] [8])
 (chapters/chapter_1.tex
 Rozdzia\l  1.
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <20.74> not available
@@ -1724,7 +1721,7 @@ LaTeX Font Info:    Try loading font information for TS1+ua1 on input line 9.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arial\ts1ua1.fd"
 File: ts1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for TS1/ua1.
 )
-<img/PW_logo.pdf, id=185, 340.59647pt x 340.59726pt>
+<img/PW_logo.pdf, id=245, 340.59647pt x 340.59726pt>
 File: img/PW_logo.pdf Graphic file (type pdf)
  <use img/PW_logo.pdf>
 Package pdftex.def Info: img/PW_logo.pdf used on input line 18.
@@ -1752,6 +1749,8 @@ Package pdftex.def Info: img/PW_logo.pdf used on input line 36.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [1
+
+
 
 
 ] (tables/table_1.tex
@@ -1806,7 +1805,7 @@ Overfull \hbox (21.49481pt too wide) in paragraph at lines 20--21
 tro-nie \T1/ua1/m/it/10.95 https://developer.twitter.com/en/apply-
  []
 
-<img/twitter_api_comparison.png, id=245, 566.115pt x 360.34625pt>
+<img/twitter_api_comparison.png, id=305, 566.115pt x 360.34625pt>
 File: img/twitter_api_comparison.png Graphic file (type png)
 
 <use img/twitter_api_comparison.png>
@@ -1964,7 +1963,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [9] (tables/twitter4j_status.tex) (tables/twitter4j_status2.tex)
 (tables/twitter4j_user.tex)
-<img/twitter_tool_twitter_analytics.png, id=258, 301.125pt x 192.21812pt>
+<img/twitter_tool_twitter_analytics.png, id=318, 301.125pt x 192.21812pt>
 File: img/twitter_tool_twitter_analytics.png Graphic file (type png)
 
 <use img/twitter_tool_twitter_analytics.png>
@@ -1995,14 +1994,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12] <img/twitter_tool_hootsuite.png, id=276, 301.125pt x 165.11688pt>
+[12] <img/twitter_tool_hootsuite.png, id=336, 301.125pt x 165.11688pt>
 File: img/twitter_tool_hootsuite.png Graphic file (type png)
 
 <use img/twitter_tool_hootsuite.png>
 Package pdftex.def Info: img/twitter_tool_hootsuite.png used on input line 64.
 (pdftex.def)             Requested size: 364.19667pt x 199.71896pt.
 
-<img/twitter_tool_hootsuite_insights.png, id=277, 816.04875pt x 511.9125pt>
+<img/twitter_tool_hootsuite_insights.png, id=337, 816.04875pt x 511.9125pt>
 File: img/twitter_tool_hootsuite_insights.png Graphic file (type png)
 
 <use img/twitter_tool_hootsuite_insights.png>
@@ -2013,7 +2012,7 @@ line 70.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<img/twitter_tool_mentionmap.png, id=278, 526.96875pt x 309.40594pt>
+<img/twitter_tool_mentionmap.png, id=338, 526.96875pt x 309.40594pt>
 File: img/twitter_tool_mentionmap.png Graphic file (type png)
 
 <use img/twitter_tool_mentionmap.png>
@@ -2029,7 +2028,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [13 <./img/twitter_tool_twitter_analytics.png> <./img/twitter_tool_hootsuite.pn
 g>]
-<img/twitter_tool_mentionmap_sentiment.png, id=287, 526.96875pt x 293.59688pt>
+<img/twitter_tool_mentionmap_sentiment.png, id=347, 526.96875pt x 293.59688pt>
 File: img/twitter_tool_mentionmap_sentiment.png Graphic file (type png)
 
 <use img/twitter_tool_mentionmap_sentiment.png>
@@ -2059,7 +2058,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 ] (chapters/chapter_4.tex
 Rozdzia\l  4.
-<img/big_data_4_v.png, id=306, 2091.012pt x 1194.864pt>
+<img/big_data_4_v.png, id=366, 2091.012pt x 1194.864pt>
 File: img/big_data_4_v.png Graphic file (type png)
 
 <use img/big_data_4_v.png>
@@ -2069,7 +2068,7 @@ Package pdftex.def Info: img/big_data_4_v.png used on input line 12.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [17
+[17
 
 ]
 
@@ -2078,17 +2077,97 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18 <./img/big_data_4_v.png>] (back_matter/bibliography.tex)
+[18 <./img/big_data_4_v.png>]
+Overfull \hbox (1.93976pt too wide) in paragraph at lines 42--44
+\T1/ua1/m/n/10.95 na zna-le-zie-niu ele-men-tów speª-nia-j¡-cych pewne kry-te-r
+ia, umiesz-cze-nie ich w zbio-rze oraz zwi¦k-
+ []
+
+<img/big_data_mapreduce.png, id=377, 355.3275pt x 361.35pt>
+File: img/big_data_mapreduce.png Graphic file (type png)
+
+<use img/big_data_mapreduce.png>
+Package pdftex.def Info: img/big_data_mapreduce.png used on input line 47.
+(pdftex.def)             Requested size: 273.14923pt x 277.78824pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19 <./img/big_data_mapreduce.png>]
+<img/big_data_neo4j.png, id=384, 483.60675pt x 422.17725pt>
+File: img/big_data_neo4j.png Graphic file (type png)
+
+<use img/big_data_neo4j.png>
+Package pdftex.def Info: img/big_data_neo4j.png used on input line 57.
+(pdftex.def)             Requested size: 364.19667pt x 317.93985pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20 <./img/big_data_neo4j.png>]
+<img/big_data_intel_parkinson.png, id=391, 772.8875pt x 434.62375pt>
+File: img/big_data_intel_parkinson.png Graphic file (type png)
+
+<use img/big_data_intel_parkinson.png>
+Package pdftex.def Info: img/big_data_intel_parkinson.png used on input line 70
+.
+(pdftex.def)             Requested size: 273.14923pt x 153.59947pt.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21 <./img/big_data_intel_parkinson.png>] [22
+
+] (chapters/chapter_5.tex
+Rozdzia\l  5.
+<img/nlp_google_tweet.png, id=401, 440.24475pt x 289.68225pt>
+File: img/nlp_google_tweet.png Graphic file (type png)
+
+<use img/nlp_google_tweet.png>
+Package pdftex.def Info: img/nlp_google_tweet.png used on input line 10.
+(pdftex.def)             Requested size: 364.19667pt x 239.65382pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24 <./img/nlp_google_tweet.png>])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25] [26
+
+] (back_matter/bibliography.tex)
 
 LaTeX Warning: Empty bibliography on input line 1.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 23.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 23.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 24.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 24.
 (thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 23.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 23.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 24.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 24.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 69DE1E697C6F83A29D79DC69334B477C;3588.
+(rerunfilecheck)             Checksum: 39496FF9DAF3F79A8E014C707D11758E;6028.
 
 
 LaTeX Warning: There were undefined references.
@@ -2104,13 +2183,13 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 23.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 24.
  ) 
 Here is how much of TeX's memory you used:
- 32566 strings out of 493328
- 579282 string characters out of 3136538
+ 32627 strings out of 493328
+ 580395 string characters out of 3136538
  1104588 words of memory out of 3000000
- 35600 multiletter control sequences out of 15000+200000
+ 35630 multiletter control sequences out of 15000+200000
  685538 words of font info for 137 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,12n,65p,1153b,2491s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2129,9 +2208,9 @@ nts/type1/public/pl/plsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
 ublic/pl/plsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/arial/ua1
 b8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on thesis.pdf (26 pages, 2486411 bytes).
+Output written on thesis.pdf (34 pages, 2867879 bytes).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
- 73 named destinations out of 1000 (max. 500000)
- 267 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 487 PDF objects out of 1000 (max. 8388607)
+ 97 named destinations out of 1000 (max. 500000)
+ 383 words of extra memory for PDF output out of 10000 (max. 10000000)
 
