@@ -1,3 +1,47 @@
-\chapter{Przetwarzanie języka naturalnego}
+\chapter{Analiza sentymentu wypowiedzi}
+Zagadnieniem dobrze ilustrującym postęp technologiczny jest prędkość rozprzestrzeniania się informacji. W starożytności informacja była przekazywana zazwyczaj przez posłańców, od których losów zależało czy i kiedy informacja zostanie dostarczona do nadawcy. Tak było w przypadku posłańca Filippidesa, który według legendy podążał po wygranej bitwie pod Maratonem do Aten, aby uprzedzić Greków przed zbliżającym się atakiem Persów. W dzisiejszych czasach coraz częściej informacja jest dostępna na ekranach urządzeń mobilnych takich jak telefon komórkowy w czasie rzeczywistym po wystąpieniu jakiegoś zdarzenia. Dlatego bardzo ważne stało się monitorowanie opinii i nastojów społecznych. Dostępne obecnie narzędzia pozwalają klasyfikować wydźwięk tekstu jako pozytywny, negatywny albo neutralny.
+
+\section{Sentyment wypowiedzi}
+Jako istoty ludzkie posiadamy zdolność do rozpoznawania cudzych emocji po treści wypowiedzi i towarzyszących jej czynników pozawerbalnych, której wydźwięk określa się jako stosunek lub postawa pozostająca w korelacji do pewnego zdarzenia lub sytuacji. Treści publikowane w internecie w formie tekstu niosą ze sobą tylko reprezentację tekstową, dlatego odczytanie nastroju wyrażanego w taki sposób jest trudnym zadaniem. Tym bardziej złożonym procesem wymagającym dokładnego przeanalizowania każdego słowa jest zadanie odczytania wydźwięku wypowiedzi przez napisany system. \\
+Dziedziną zajmującą się analizą wypowiedzi jest przetwarzanie języka naturalnego (ang. \textit{NLP - natural language processing}), gdzie językiem naturalnym określa się język stosowany przez ludzi do komunikacji interpersonalnej. Zadaniem systemów rozumiejących język naturalnych jest przekształcenie go na formę bardziej przyjazną dla komputerów. Natomiast podzbiór tych systemów służący do określania sentymentu zwraca ogólną informację o wydźwięku w ustalonej skali. Przykładowo analiza sentymentu w uważanej za punkt odniesienia dla takich algorytmów bibliotece CoreNLP, napisanej przez pracowników i studentów amerykańskiego Uniwersytetu Stanforda, zwraca informację o sentymencie w pięciostopniowej skali: bardzo negatywny, negatywny, neutralny, pozytywny, bardzo pozytywny. Jest to ogólna informacja, ale nawet taka w postaci statystyk jest w stanie posłużyć jako cenne źródło informacji.
+
+\begin{figure}[h] % h means here
+	\centering
+	\includegraphics[width=0.8\linewidth]{img/nlp_google_tweet}
+	\caption{Tweet firmy \textit{Google} zamieszczony z okazji Dnia Dziękczynienia jako przykład tekstu o pozytywnym wydźwięku.}
+\end{figure}
+
+\section{Przetwarzanie języka naturalnego}
+Analiza nastrojów społecznych wypowiedzi jest możliwa po poddaniu tekstu zamianie na reprezentację, którą mogą posługiwać się systemy informatyczne. Poniżej przedstawiono kilka takich reprezentacji:
+
+\begin{itemize}
+	\item[--] 
+\end{itemize}
+
+\section{Wymagania związane z oceną sentymentu}
+Algorytmy analizujące sentyment muszą poradzić sobie z następującymi wymaganiami:
+
+\begin{itemize}
+	\item[--] złożoność języka naturalnego,
+	\item[--] niejednoznaczność wypowiedzi np. na przykładzie wieloznaczności słowa zamek: \textit{akcja Zemsty Fredry dzieje się na zamku w Odrzykoniu} lub \textit{zamek w moich drzwiach nie chce się otworzyć} lub syntaktyczna niejednoznaczność gdy w jednej części zdania znajduje się pozytywny wydźwięk, a w kolejnej negatywny np. \textit{pogoda była okropna, ale obiad bardzo nam smakował},
+	\item[--] specyfika stosowanego języka np. w internecie z powodu niejednokrotnie nie zachowanych zasad gramatycznych lub wiadomości nie niosących ze sobą żadnej treści,
+	\item[--] neologizmy np. retweet,
+	\item[--] idiomy np. "urwanie głowy"
+	\item[--] problemów z rozpoznawaniem nazw np. \textit{byliśmy wczoraj na K2} - czy chodzi o film czy o szczyt górski,
+	\item[--] problem wyrwania wypowiedzi z kontekstu,
+	\item[--] tekst o charakterze sarkastycznym.
+\end{itemize}
+
+\section{Zastosowanie badania wydźwięku wypowiedzi z internetu}
+Jak wynika z badań przeprowadzonych na grupie ponad 2000 dorosłych Amerykanów 81\% internautów przynajmniej raz szukało opinii o produkcie w internecie, a 20\% Amerykanów robi to na co dzień. 80\% użytkowników internetu spośród wspomnianej grupy badawczej przyznało, że opinie przeczytane w internecie miały znaczny wpływ na dokonane przez nich zakupy. Wyniki tych badań pokazują jak bardzo wydźwięk informacji, opinii, recenzji oraz poglądów w internecie ma wpływ na zachowania ludzi. Najczęściej spotykane zastosowania analizy sentymentu wypowiedzi zamieszczanych w internecie to:
+
+\begin{itemize}
+	\item[--] analizowanie opinii wyrażanych na temat produktów np. krótko po premierze nowego produktu firmy chcą wiedzień jak są one odbierane tak aby móc w porę zaplanować wprowadzenie poprawek lub aby prognozować wyniki sprzedaży oraz cenę akcji, firmy próbują także docierać do osób krytykujących aby przekonać ich do zmiany zdania lub żeby krytyków konkurencji zachęcić do zakupu swoich produktów,
+	\item[--] badanie opinii na temat firm np. jako pracodawców lub ich odbiór na rynku,
+	\item[--] analiza opinii na temat ugrupowań politycznych i polityków np. dotyczących obecnej sytuacji lub przyszłych decyzji oraz nastawienia badanych grup społecznych,
+	\item[--] badanie nastrojów społecznych podczas wydarzeń sportowych może posłużyć np. do uzyskania wiedzy jak odbierane są decyzje właścicieli klubów piłkarskich. 
+\end{itemize}
+
+   
 
 
