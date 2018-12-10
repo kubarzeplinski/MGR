@@ -6,41 +6,45 @@
 \select@language {polish}
 \select@language {polish}
 \contentsline {chapter}{\numberline {1}Wst\IeC {\k e}p}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Motywacja do pracy}{1}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Przyk\IeC {\l }ady innych prac}{3}{subsection.1.1.1}
-\contentsline {section}{\numberline {1.2}Metodyka pracy}{3}{section.1.2}
-\contentsline {section}{\numberline {1.3}Plan pracy}{4}{section.1.3}
-\contentsline {chapter}{\numberline {2}Przegl\IeC {\k a}d technologii}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Metodyka przegl\IeC {\k a}du}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}Wyniki przegl\IeC {\k a}du}{5}{section.2.2}
-\contentsline {section}{\numberline {2.3}Kolejna sekcja}{5}{section.2.3}
-\contentsline {chapter}{\numberline {3}Serwis spo\IeC {\l }eczno\IeC {\'s}ciowy Twitter}{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}Historia}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}Tweet}{7}{section.3.2}
-\contentsline {section}{\numberline {3.3}Architektura}{7}{section.3.3}
-\contentsline {section}{\numberline {3.4}API}{8}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Zakres dzia\IeC {\l }ania}{8}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Rejestracja}{8}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Spos\IeC {\'o}b dzia\IeC {\l }ania}{8}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Ograniczenia}{10}{subsection.3.4.4}
-\contentsline {section}{\numberline {3.5}Dost\IeC {\k e}pne narz\IeC {\k e}dzia analityczne}{10}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Twitter Analytics}{10}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Hootsuite}{10}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Mentionmap}{13}{subsection.3.5.3}
-\contentsline {subsection}{\numberline {3.5.4}Podsumowanie}{14}{subsection.3.5.4}
-\contentsline {chapter}{\numberline {4}Analiza danych Big Data}{17}{chapter.4}
-\contentsline {section}{\numberline {4.1}Poj\IeC {\k e}cie Big Data}{17}{section.4.1}
-\contentsline {section}{\numberline {4.2}Charakterystyka}{17}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Obj\IeC {\k e}to\IeC {\'s}\IeC {\'c}}{17}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Szybko\IeC {\'s}\IeC {\'c}}{18}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}R\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}\IeC {\'c} i z\IeC {\l }o\IeC {\.z}ono\IeC {\'s}\IeC {\'c}}{18}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Zmienno\IeC {\'s}\IeC {\'c}}{19}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}Warto\IeC {\'s}\IeC {\'c}}{19}{subsection.4.2.5}
-\contentsline {section}{\numberline {4.3}Paradygmat MapReduce}{19}{section.4.3}
-\contentsline {section}{\numberline {4.4}Wymagania stawiane przed systemami Big Data}{20}{section.4.4}
-\contentsline {section}{\numberline {4.5}Przyk\IeC {\l }ady zastosowania system\IeC {\'o}w Big Data}{20}{section.4.5}
-\contentsline {chapter}{\numberline {5}Analiza sentymentu wypowiedzi}{23}{chapter.5}
-\contentsline {section}{\numberline {5.1}Sentyment wypowiedzi}{23}{section.5.1}
-\contentsline {section}{\numberline {5.2}Przetwarzanie j\IeC {\k e}zyka naturalnego}{23}{section.5.2}
-\contentsline {section}{\numberline {5.3}Wymagania zwi\IeC {\k a}zane z ocen\IeC {\k a} sentymentu}{24}{section.5.3}
-\contentsline {section}{\numberline {5.4}Zastosowanie badania wyd\IeC {\'z}wi\IeC {\k e}ku wypowiedzi z internetu}{24}{section.5.4}
+\contentsline {chapter}{\numberline {2}Serwis spo\IeC {\l }eczno\IeC {\'s}ciowy Twitter}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Historia}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Tweet}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}Architektura}{3}{section.2.3}
+\contentsline {section}{\numberline {2.4}Interfejs programistyczny aplikacji Twitter}{4}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Zakres dzia\IeC {\l }ania}{4}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Rejestracja}{4}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Spos\IeC {\'o}b dzia\IeC {\l }ania}{4}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Ograniczenia}{6}{subsection.2.4.4}
+\contentsline {section}{\numberline {2.5}Dost\IeC {\k e}pne narz\IeC {\k e}dzia analityczne}{6}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Twitter Analytics}{6}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Hootsuite}{6}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Mentionmap}{9}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.5.4}Podsumowanie}{10}{subsection.2.5.4}
+\contentsline {chapter}{\numberline {3}Analiza danych Big Data}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Poj\IeC {\k e}cie Big Data}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}Charakterystyka}{13}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Obj\IeC {\k e}to\IeC {\'s}\IeC {\'c}}{13}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Szybko\IeC {\'s}\IeC {\'c}}{14}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}R\IeC {\'o}\IeC {\.z}norodno\IeC {\'s}\IeC {\'c} i z\IeC {\l }o\IeC {\.z}ono\IeC {\'s}\IeC {\'c}}{14}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Zmienno\IeC {\'s}\IeC {\'c}}{15}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Warto\IeC {\'s}\IeC {\'c}}{15}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Paradygmat MapReduce}{15}{section.3.3}
+\contentsline {section}{\numberline {3.4}Wymagania stawiane przed systemami Big Data}{16}{section.3.4}
+\contentsline {section}{\numberline {3.5}Przyk\IeC {\l }ady zastosowania system\IeC {\'o}w Big Data}{16}{section.3.5}
+\contentsline {chapter}{\numberline {4}Analiza sentymentu wypowiedzi}{19}{chapter.4}
+\contentsline {section}{\numberline {4.1}Przetwarzanie j\IeC {\k e}zyka naturalnego}{19}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Ustalanie znaczenia}{19}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Powi\IeC {\k a}zania mi\IeC {\k e}dzyzdaniowe}{20}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Reprezentacja j\IeC {\k e}zyka}{20}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Sentyment wypowiedzi}{20}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Wymagania zwi\IeC {\k a}zane z ocen\IeC {\k a} sentymentu}{21}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Techniki badania sentymentu}{22}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Zastosowanie badania wyd\IeC {\'z}wi\IeC {\k e}ku wypowiedzi z internetu}{22}{subsection.4.2.3}
+\contentsline {chapter}{\numberline {5}Wymagania funkcjonalne i niefunkcjonalne}{25}{chapter.5}
+\contentsline {section}{\numberline {5.1}Wymagania funkcjonalne}{25}{section.5.1}
+\contentsline {section}{\numberline {5.2}Wymagania niefunkcjonalne}{26}{section.5.2}
+\contentsline {section}{\numberline {5.3}Podsumowanie}{27}{section.5.3}
+\contentsline {chapter}{\numberline {6}Wyb\IeC {\'o}r narz\IeC {\k e}dzi}{29}{chapter.6}
+\contentsline {chapter}{\numberline {7}Aplikacja Twitter Analyser}{31}{chapter.7}
+\contentsline {chapter}{\numberline {8}Badania i wnioski}{33}{chapter.8}
+\contentsline {chapter}{\numberline {9}Podsumowanie}{35}{chapter.9}
