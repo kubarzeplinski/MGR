@@ -1,47 +1,46 @@
-\chapter{Analiza sentymentu wypowiedzi}
-Zagadnieniem dobrze ilustrującym postęp technologiczny jest prędkość rozprzestrzeniania się informacji. W starożytności informacja była przekazywana zazwyczaj przez posłańców, od których losów zależało czy i kiedy informacja zostanie dostarczona do nadawcy. Tak było w przypadku posłańca Filippidesa, który według legendy podążał po wygranej bitwie pod Maratonem do Aten, aby uprzedzić Greków przed zbliżającym się atakiem Persów. W dzisiejszych czasach coraz częściej informacja jest dostępna na ekranach urządzeń mobilnych takich jak telefon komórkowy w czasie rzeczywistym po wystąpieniu jakiegoś zdarzenia. Dlatego bardzo ważne stało się monitorowanie opinii i nastojów społecznych. Dostępne obecnie narzędzia pozwalają klasyfikować wydźwięk tekstu jako pozytywny, negatywny albo neutralny.
+\chapter{Wymagania funkcjonalne i niefunkcjonalne}
+Jak już zostało wspomniane w rozdziale dotyczącym serwisu Twitter, przy okazji omówienia dostępnych narzędzi, nie ma obecnie na rynku aplikacji, która umożliwiałaby śledzenie występowania dowolnego słowa w wiadomościach zamieszczanych w czasie rzeczywistym w tym serwisie, rysowałaby wykres zależności pomiędzy użytkownikami, analizowałaby nastroje społeczne użytkowników z wyświetleniem informacji o nastroju wyrażanym w poszczególnych wiadomościach oraz pozwalałaby na analizowanie danych historycznych i zamieszczanych w czasie rzeczywistym. Głównym celem tej pracy dyplomowej jest stworzenie aplikacji, która posiadałaby wspomniane funkcjonalności.
 
-\section{Sentyment wypowiedzi}
-Jako istoty ludzkie posiadamy zdolność do rozpoznawania cudzych emocji po treści wypowiedzi i towarzyszących jej czynników pozawerbalnych, której wydźwięk określa się jako stosunek lub postawa pozostająca w korelacji do pewnego zdarzenia lub sytuacji. Treści publikowane w internecie w formie tekstu niosą ze sobą tylko reprezentację tekstową, dlatego odczytanie nastroju wyrażanego w taki sposób jest trudnym zadaniem. Tym bardziej złożonym procesem wymagającym dokładnego przeanalizowania każdego słowa jest zadanie odczytania wydźwięku wypowiedzi przez napisany system. \\
-Dziedziną zajmującą się analizą wypowiedzi jest przetwarzanie języka naturalnego (ang. \textit{NLP - natural language processing}), gdzie językiem naturalnym określa się język stosowany przez ludzi do komunikacji interpersonalnej. Zadaniem systemów rozumiejących język naturalnych jest przekształcenie go na formę bardziej przyjazną dla komputerów. Natomiast podzbiór tych systemów służący do określania sentymentu zwraca ogólną informację o wydźwięku w ustalonej skali. Przykładowo analiza sentymentu w uważanej za punkt odniesienia dla takich algorytmów bibliotece CoreNLP, napisanej przez pracowników i studentów amerykańskiego Uniwersytetu Stanforda, zwraca informację o sentymencie w pięciostopniowej skali: bardzo negatywny, negatywny, neutralny, pozytywny, bardzo pozytywny. Jest to ogólna informacja, ale nawet taka w postaci statystyk jest w stanie posłużyć jako cenne źródło informacji.
-
-\begin{figure}[h] % h means here
-	\centering
-	\includegraphics[width=0.8\linewidth]{img/nlp_google_tweet}
-	\caption{Tweet firmy \textit{Google} zamieszczony z okazji Dnia Dziękczynienia jako przykład tekstu o pozytywnym wydźwięku.}
-\end{figure}
-
-\section{Przetwarzanie języka naturalnego}
-Analiza nastrojów społecznych wypowiedzi jest możliwa po poddaniu tekstu zamianie na reprezentację, którą mogą posługiwać się systemy informatyczne. Poniżej przedstawiono kilka takich reprezentacji:
-
+\section{Wymagania funkcjonalne}
+Główną funkcjonalnością, którą powinna zapewnić budowana aplikacja jest dostęp do usystematyzowanych danych pochodzących z sewisu Twitter, które będą nieść ze sobą informację o sentymencie. Dane te powinny być także przechowywane w taki sposób, aby móc zapewnić do nich dostęp w dowolnym momencie oraz spoza zaimplementowanego narzędzia. \\
+Wymagania funkcjonalne, które dotyczą budowanego rozwiązania to: 
 \begin{itemize}
-	\item[--] 
+	\item[--] \textbf{przetwarzanie danych z serwisu Twitter} - aplikacja powinna przetwarzać tweety użytkowników serwisu Twitter, do których dostęp można uzyskać przez Streaming API tego serwisu, które zostało szczegółowo omówione w rozdziale 2.; 
+	\item[--] \textbf{filtrowanie napływających danych po słowie kluczowym} - dane napływające w czasie rzeczywistym powinny być filtrowane pod względem zawartości w treści wiadomości słowa kluczowego, które zostało określone przez użytkownika za pomocą graficznego interfejsu aplikacji;
+	\item[--] \textbf{zapis napływających danych} - budowane narzędzie powinno zapisywać przetworzone, uporządkowane i dotyczące wybranego słowa kluczowego dane w lokalnej bazie danych, która umożliwiałaby dostęp do nich przez swój wbudowany pulpit w dowolnym momencie oraz spoza zaimplementowanego narzędzia;
+	\item[--] \textbf{duża częstotliwość pobierania danych} - aplikacja powinna pobierać informacje w krótkich odstępach czasu, ponieważ serwis Twitter charakteryzuje duża ilość informacji przesyłanych w każdej sekundzie;
+	\item[--] \textbf{prezentowanie danych historycznych} - narzędzie powinno prezentować dane historyczne zgromadzone podczas przetwarzania danych napływających wówczas w czasie rzeczywistym;
+	\item[--] \textbf{prezentowanie podstawowych danych napływających w czasie rzeczywistym} - aplikacja powinna umożliwiać analizowanie podstawowych informacji o wiadomościach i użytkownikach, które będą napływać w czasie rzeczywistym;
+	\item[--] \textbf{dostęp do szczegółowej informacji o użytkowniku} - implementowane narzędzie powinno umożliwiać dostęp do informacji o każdym użytkowniku zainteresowanym wybranym słowem kluczowym, którego wiadomość udało się zarejestrować podczas gromadzenia danych z wykorzystaniem Streaming API serwisu Twitter;
+	\item[--] \textbf{dostęp do szczegółowej informacji o wiadomości} - aplikacja powinna wyświetlać szczegółową informację, o każdej wiadomości zawierającej wybrane słowo kluczowe i zapisanej podczas gromadzenia danych z wykorzystaniem Streaming API;
+	\item[--] \textbf{prezentowanie informacji statystycznej o sentymencie na dany temat} - narzędzie powinno prezentować statystyki sentymentu użytkowników serwisu Twitter, którzy w swoich wiadomościach zawarli wybrane słowo kluczowe i których wiadomości udało się zapisać podczas analizy danych napływających w czasie rzeczywistym;
+	\item[--] \textbf{możliwość jednoczesnej analizy danych historycznych i napływających w czasie rzeczywistym} - aplikacja powinna umożliwiać jednoczesną analizę danych historycznych i napływających w czasie rzeczywistym bez konieczności ponownego uruchamiania aplikacji lub zatrzymywania jednej z analiz;
+	\item[--] \textbf{przyjazny interfejs graficzny} - narzędzie powinno posiadać wygodny, łatwy do nauczenia oraz prosty interfejs graficzny.
 \end{itemize}
 
-\section{Wymagania związane z oceną sentymentu}
-Algorytmy analizujące sentyment muszą poradzić sobie z następującymi wymaganiami:
 
-\begin{itemize}
-	\item[--] złożoność języka naturalnego,
-	\item[--] niejednoznaczność wypowiedzi np. na przykładzie wieloznaczności słowa zamek: \textit{akcja Zemsty Fredry dzieje się na zamku w Odrzykoniu} lub \textit{zamek w moich drzwiach nie chce się otworzyć} lub syntaktyczna niejednoznaczność gdy w jednej części zdania znajduje się pozytywny wydźwięk, a w kolejnej negatywny np. \textit{pogoda była okropna, ale obiad bardzo nam smakował},
-	\item[--] specyfika stosowanego języka np. w internecie z powodu niejednokrotnie nie zachowanych zasad gramatycznych lub wiadomości nie niosących ze sobą żadnej treści,
-	\item[--] neologizmy np. retweet,
-	\item[--] idiomy np. "urwanie głowy"
-	\item[--] problemów z rozpoznawaniem nazw np. \textit{byliśmy wczoraj na K2} - czy chodzi o film czy o szczyt górski,
-	\item[--] problem wyrwania wypowiedzi z kontekstu,
-	\item[--] tekst o charakterze sarkastycznym.
-\end{itemize}
+\section{Wymagania niefunkcjonalne}
+Tworzone rozwiązanie będzie także analizowało wydźwięk wypowiedzi użytkowników. Wymagania niefunkcjonalne, które powinna spełniać przygotowywana aplikacja to: \\
+\\
+\textbf{Spełnienie głównych założeń systemu czasu rzeczywistego} \\
+\\
+Głównym przypadkiem biznesowym, dla którego tworzona jest wspomniana aplikacja jest sytuacja dużego i globalnego zainteresowania pewnym tematem, które objawia się odnoszeniem się do niego w wiadomościach zamieszczanych przez użytkowników serwisu Twitter. Można stwierdzić, że przygotowywane narzędzie będzie przykładem systemem czasu rzeczywistego jeśli system ten będzie "\textit{urządzeniem techniczne, którego wynik i efekt działania będzie zależny od chwili wypracowania tego wyniku}". Wspólną cechą definicji takiego systemu jest "\textit{zwrócenie uwagi na równoległość w czasie zmian w środowisku oraz obliczeń realizowanych na podstawie stanu środowiska}". \\
+\\
+\textbf{Płynna obsługa danych} \\
+\\
+Budowany system powinien przetwarzać dane w czasie nie większym niż tempo napływania nowych informacji. Koniecznością jest zatem skorzystanie z narzędzi umożliwiających sprawne przetwarzanie danych, ale także ich zapis do bazy w czasie nie większym niż czas trwania określonego okna czasowego. \\
+\\
+\textbf{Możliwość działania aplikacji i analizowania danych historycznych w trybie offline} \\
+\\
+Dane zapisane podczas sesji korzystania ze strumienia danych serwisu Twitter będą zapisywane w lokalnej bazie danych, dlatego stworzone narzędzie powinno umożliwiać analizowanie danych historycznych bez połączenia z internetem. \\
+\\
+\textbf{Jednorazowe przetwarzanie informacji ze strumienia danych} \\ 
+\\
+Aplikacja powinna tylko jeden raz przetwarzać i zapisywać do bazy danych informacje pozyskane ze strumienia. Jeśli w bazie istnieje już informacja o użytkowniku to nowe wiadomości powinny być z nim powiązane. \\ 
+\\ 
+\textbf{Niezawodność} \\
+System powinien charakteryzować się niezawodnością podczas pracy z dużą ilością danych napływających w krótkich odstępach czasu oraz jak najbliższym prawdy określaniem sentymentu wypowiedzi zawartej w wielu wiadomościach.
 
-\section{Zastosowanie badania wydźwięku wypowiedzi z internetu}
-Jak wynika z badań przeprowadzonych na grupie ponad 2000 dorosłych Amerykanów 81\% internautów przynajmniej raz szukało opinii o produkcie w internecie, a 20\% Amerykanów robi to na co dzień. 80\% użytkowników internetu spośród wspomnianej grupy badawczej przyznało, że opinie przeczytane w internecie miały znaczny wpływ na dokonane przez nich zakupy. Wyniki tych badań pokazują jak bardzo wydźwięk informacji, opinii, recenzji oraz poglądów w internecie ma wpływ na zachowania ludzi. Najczęściej spotykane zastosowania analizy sentymentu wypowiedzi zamieszczanych w internecie to:
-
-\begin{itemize}
-	\item[--] analizowanie opinii wyrażanych na temat produktów np. krótko po premierze nowego produktu firmy chcą wiedzień jak są one odbierane tak aby móc w porę zaplanować wprowadzenie poprawek lub aby prognozować wyniki sprzedaży oraz cenę akcji, firmy próbują także docierać do osób krytykujących aby przekonać ich do zmiany zdania lub żeby krytyków konkurencji zachęcić do zakupu swoich produktów,
-	\item[--] badanie opinii na temat firm np. jako pracodawców lub ich odbiór na rynku,
-	\item[--] analiza opinii na temat ugrupowań politycznych i polityków np. dotyczących obecnej sytuacji lub przyszłych decyzji oraz nastawienia badanych grup społecznych,
-	\item[--] badanie nastrojów społecznych podczas wydarzeń sportowych może posłużyć np. do uzyskania wiedzy jak odbierane są decyzje właścicieli klubów piłkarskich. 
-\end{itemize}
-
-   
-
+\section{Podsumowanie}
+System napisany na potrzeby tej pracy dyplomowej powinien spełniać wszystkie z wymienionych wymagań niefunkcjonalnych, ponieważ nie spełnienie nawet jednej z nich może spowodować, że aplikacja będzie nieużyteczna. Postawione wymagania funkcjonalne i niefunkcjonalne, łącząc się z opisem serwisu Twitter, narzędzi Big Data oraz przetwarzania języka naturalnego, definiują potrzeby jakie powinny umożliwiać narzędzia wybrane do jej budowy oraz samo narzędzie. Zostanie to omówione w następnych rozdziałach.
 
