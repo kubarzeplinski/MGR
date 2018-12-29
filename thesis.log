@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300) (preloaded format=pdflatex 2018.11.4)  10 DEC 2018 15:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300) (preloaded format=pdflatex 2018.11.4)  29 DEC 2018 19:20
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1625,20 +1625,19 @@ LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 4.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\polski\ot4cmtt.fd"
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-(front_matter/titlepage.tex
-<img/pw_header.png, id=175, 1209.318pt x 197.538pt>
+(front_matter/titlepage.tex <img/pw_header.png, id=35, 1209.318pt x 197.538pt>
 File: img/pw_header.png Graphic file (type png)
- <use img/pw_header.png>
+
+<use img/pw_header.png>
 Package pdftex.def Info: img/pw_header.png used on input line 7.
 (pdftex.def)             Requested size: 455.24411pt x 74.3599pt.
-
-<img/pw_title.png, id=176, 483.8075pt x 105.39375pt>
+ <img/pw_title.png, id=36, 483.8075pt x 105.39375pt>
 File: img/pw_title.png Graphic file (type png)
- <use img/pw_title.png>
+
+<use img/pw_title.png>
 Package pdftex.def Info: img/pw_title.png used on input line 16.
 (pdftex.def)             Requested size: 455.24411pt x 99.17625pt.
-
-[1
+ [1
 
 
 
@@ -1648,8 +1647,8 @@ mg/pw_title.png>]) [2
 ] (front_matter/abstract.tex
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <12> not available
 (Font)              Font shape `T1/ua1/b/n' tried instead on input line 5.
- [3] [4])
-(front_matter/declarations.tex
+
+[3] [4]) (front_matter/declarations.tex
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <11> not available
 (Font)              Font shape `T1/ua1/b/n' tried instead on input line 5.
 LaTeX Font Info:    External font `plex10' loaded for size
@@ -1683,45 +1682,64 @@ LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <24.88> not available
  (thesis.toc
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ua1/b/n' tried instead on input line 8.
- [7
-
-])
+)
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
- [8])
+ [7
+
+]) [8
+
+
+]
 (chapters/chapter_1.tex
 Rozdzia\l  1.
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ua1/b/n' tried instead on input line 1.
-) [1
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
 
 
+])
 
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-] [2
-
-] (chapters/chapter_2.tex
+[2] (chapters/chapter_2.tex
 Rozdzia\l  2.
-LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 5.
-[3
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3
+
 
 ]
-Overfull \hbox (21.49481pt too wide) in paragraph at lines 21--22
-\T1/ua1/m/n/10.95 Obie formy API wy-ma-gaj¡ wcze-±niej-szej re-je-stra-cji na s
-tro-nie \T1/ua1/m/it/10.95 https://developer.twitter.com/en/apply-
+Overfull \hbox (38.49481pt too wide) in paragraph at lines 14--15
+[]\T1/ua1/m/n/10.95 Obie formy API wy-ma-gaj¡ wcze-±niej-szej re-je-stra-cji na
+ stro-nie \T1/ua1/m/it/10.95 https://developer.twitter.com/en/apply-
  []
 
-<img/twitter_api_comparison.png, id=273, 566.115pt x 360.34625pt>
+<img/twitter_api_comparison.png, id=98, 566.115pt x 360.34625pt>
 File: img/twitter_api_comparison.png Graphic file (type png)
 
 <use img/twitter_api_comparison.png>
-Package pdftex.def Info: img/twitter_api_comparison.png used on input line 28.
-(pdftex.def)             Requested size: 273.14923pt x 173.87148pt.
+Package pdftex.def Info: img/twitter_api_comparison.png used on input line 20.
+(pdftex.def)             Requested size: 455.24411pt x 289.78395pt.
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <9> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 29.
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 21.
 
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4 <./img/twitter_api_comparison.png>] (tables/twitter4j_status.tex)
+(tables/twitter4j_status2.tex) (tables/twitter4j_user.tex)
 (tables/twitter_search_api_query_parameters.tex
 Underfull \hbox (badness 7273) in paragraph at lines 13--13
 []|\T1/ua1/m/n/10.95 zapytanie wy-szu-ku-
@@ -1858,32 +1876,33 @@ Underfull \hbox (badness 4467) in paragraph at lines 13--13
  []
 
 ) (tables/twitter_search_api_query_parameters2.tex)
+<img/twitter_tool_mentionmap.png, id=106, 526.96875pt x 309.40594pt>
+File: img/twitter_tool_mentionmap.png Graphic file (type png)
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+<use img/twitter_tool_mentionmap.png>
+Package pdftex.def Info: img/twitter_tool_mentionmap.png used on input line 44.
 
-[4 <./img/twitter_api_comparison.png>]
+(pdftex.def)             Requested size: 455.24411pt x 267.30669pt.
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+<img/twitter_tool_mentionmap_sentiment.png, id=107, 526.96875pt x 293.59688pt>
+File: img/twitter_tool_mentionmap_sentiment.png Graphic file (type png)
 
-[5] (tables/twitter4j_status.tex) (tables/twitter4j_status2.tex)
-(tables/twitter4j_user.tex)
-<img/twitter_tool_twitter_analytics.png, id=287, 301.125pt x 192.21812pt>
-File: img/twitter_tool_twitter_analytics.png Graphic file (type png)
-
-<use img/twitter_tool_twitter_analytics.png>
-Package pdftex.def Info: img/twitter_tool_twitter_analytics.png used on input l
-ine 55.
-(pdftex.def)             Requested size: 364.19667pt x 232.49957pt.
+<use img/twitter_tool_mentionmap_sentiment.png>
+Package pdftex.def Info: img/twitter_tool_mentionmap_sentiment.png used on inpu
+t line 50.
+(pdftex.def)             Requested size: 455.24411pt x 253.64868pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5 <./img/twitter_tool_mentionmap.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1904,298 +1923,285 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8] <img/twitter_tool_hootsuite.png, id=304, 301.125pt x 165.11688pt>
-File: img/twitter_tool_hootsuite.png Graphic file (type png)
-
-<use img/twitter_tool_hootsuite.png>
-Package pdftex.def Info: img/twitter_tool_hootsuite.png used on input line 65.
-(pdftex.def)             Requested size: 364.19667pt x 199.71896pt.
-
-<img/twitter_tool_hootsuite_insights.png, id=305, 816.04875pt x 511.9125pt>
-File: img/twitter_tool_hootsuite_insights.png Graphic file (type png)
-
-<use img/twitter_tool_hootsuite_insights.png>
-Package pdftex.def Info: img/twitter_tool_hootsuite_insights.png used on input 
-line 71.
-(pdftex.def)             Requested size: 364.19667pt x 228.46039pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<img/twitter_tool_mentionmap.png, id=306, 526.96875pt x 309.40594pt>
-File: img/twitter_tool_mentionmap.png Graphic file (type png)
-
-<use img/twitter_tool_mentionmap.png>
-Package pdftex.def Info: img/twitter_tool_mentionmap.png used on input line 81.
-
-(pdftex.def)             Requested size: 364.19667pt x 213.8444pt.
-
+[8]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9 <./img/twitter_tool_twitter_analytics.png> <./img/twitter_tool_hootsuite.png
->]
-<img/twitter_tool_mentionmap_sentiment.png, id=315, 526.96875pt x 293.59688pt>
-File: img/twitter_tool_mentionmap_sentiment.png Graphic file (type png)
-
-<use img/twitter_tool_mentionmap_sentiment.png>
-Package pdftex.def Info: img/twitter_tool_mentionmap_sentiment.png used on inpu
-t line 87.
-(pdftex.def)             Requested size: 364.19667pt x 202.91805pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-)
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[10 <./img/twitter_tool_hootsuite_insights.png> <./img/twitter_tool_mentionmap.
-png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[11 <./img/twitter_tool_mentionmap_sentiment.png>] [12
-
-] (chapters/chapter_3.tex
-Rozdzia\l  3.
-<img/big_data_4_v.png, id=335, 2091.012pt x 1194.864pt>
-File: img/big_data_4_v.png Graphic file (type png)
-
-<use img/big_data_4_v.png>
-Package pdftex.def Info: img/big_data_4_v.png used on input line 12.
-(pdftex.def)             Requested size: 455.24411pt x 260.13606pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[13
-
-]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[14 <./img/big_data_4_v.png>]
-Overfull \hbox (1.93976pt too wide) in paragraph at lines 42--44
-\T1/ua1/m/n/10.95 na zna-le-zie-niu ele-men-tów speª-nia-j¡-cych pewne kry-te-r
-ia, umiesz-cze-nie ich w zbio-rze oraz zwi¦k-
- []
-
-<img/big_data_mapreduce.png, id=345, 355.3275pt x 361.35pt>
-File: img/big_data_mapreduce.png Graphic file (type png)
-
-<use img/big_data_mapreduce.png>
-Package pdftex.def Info: img/big_data_mapreduce.png used on input line 47.
-(pdftex.def)             Requested size: 273.14923pt x 277.78824pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[15 <./img/big_data_mapreduce.png>]
-<img/big_data_neo4j.png, id=352, 483.60675pt x 422.17725pt>
-File: img/big_data_neo4j.png Graphic file (type png)
-
-<use img/big_data_neo4j.png>
-Package pdftex.def Info: img/big_data_neo4j.png used on input line 57.
-(pdftex.def)             Requested size: 364.19667pt x 317.93985pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[16 <./img/big_data_neo4j.png>]
-<img/big_data_intel_parkinson.png, id=359, 772.8875pt x 434.62375pt>
-File: img/big_data_intel_parkinson.png Graphic file (type png)
-
-<use img/big_data_intel_parkinson.png>
-Package pdftex.def Info: img/big_data_intel_parkinson.png used on input line 70
-.
-(pdftex.def)             Requested size: 273.14923pt x 153.59947pt.
-)
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[17 <./img/big_data_intel_parkinson.png>] [18
+[9 <./img/twitter_tool_mentionmap_sentiment.png>] [10
 
 ] (chapters/chapter_4.tex
-Rozdzia\l  4.
-[19
+Rozdzia\l  3.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11
 
 ]
-LaTeX Font Info:    Try loading font information for TS1+ua1 on input line 19.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arial\ts1ua1.fd"
+LaTeX Font Info:    Try loading font information for TS1+ua1 on input line 17.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arial\ts1ua1.fd"
 File: ts1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for TS1/ua1.
 )
-Overfull \hbox (1.07416pt too wide) in paragraph at lines 21--22
-\T1/ua1/m/n/10.95 mo»-li-wo±¢ za-ob-ra-zo-wa-nia ko-lej-no-±ci wy-st¦-po-wa-nia
- sªów z wy-ko-rzy-sta-niem kra-w¦-dzi skie-
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20] <img/nlp_google_tweet.png, id=378, 440.24475pt x 289.68225pt>
-File: img/nlp_google_tweet.png Graphic file (type png)
-
-<use img/nlp_google_tweet.png>
-Package pdftex.def Info: img/nlp_google_tweet.png used on input line 30.
-(pdftex.def)             Requested size: 364.19667pt x 239.65382pt.
-
+[12]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21 <./img/nlp_google_tweet.png>]
+[13])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22])
+[14] (chapters/chapter_5.tex
+Rozdzia\l  4.
+[15
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
 
-[23] [24
-
-] (chapters/chapter_5.tex
-Rozdzia\l  5.
-
+]
 Overfull \hbox (0.58139pt too wide) in paragraph at lines 13--14
 \T1/ua1/m/n/10.95 ka-cja po-winna umo»-li-wia¢ ana-li-zo-wa-nie pod-sta-wo-wych
  in-for-ma-cji o wia-do-mo-±ciach i u»yt-
  []
 
-[25
 
-]
 Overfull \hbox (6.48355pt too wide) in paragraph at lines 15--16
 []\T1/ua1/b/n/10.95 dost¦p do szcze-gó-ªo-wej in-for-ma-cji o wia-do-mo-±ci \T1
 /ua1/m/n/10.95 - apli-ka-cja po-winna wy-±wie-tla¢ szcze-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--43
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--43
-
- []
-
+[16])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[27] [28
+[17] [18
 
 ] (chapters/chapter_6.tex
+Rozdzia\l  5.
+<img/tools_java_1.png, id=176, 686.565pt x 101.178pt>
+File: img/tools_java_1.png Graphic file (type png)
+
+<use img/tools_java_1.png>
+Package pdftex.def Info: img/tools_java_1.png used on input line 10.
+(pdftex.def)             Requested size: 455.24411pt x 67.08798pt.
+
+<img/tools_lombok_1.png, id=177, 234.8775pt x 164.41425pt>
+File: img/tools_lombok_1.png Graphic file (type png)
+
+<use img/tools_lombok_1.png>
+Package pdftex.def Info: img/tools_lombok_1.png used on input line 18.
+(pdftex.def)             Requested size: 273.14923pt x 191.20483pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 1137) has occurred while \output is active []
+
+ [19
+
+ <./img/tools_java_1.png>]
+<img/tools_apache_spark_streaming_1.png, id=184, 455.301pt x 92.7465pt>
+File: img/tools_apache_spark_streaming_1.png Graphic file (type png)
+
+<use img/tools_apache_spark_streaming_1.png>
+Package pdftex.def Info: img/tools_apache_spark_streaming_1.png used on input l
+ine 32.
+(pdftex.def)             Requested size: 455.24411pt x 92.73778pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 2772) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20 <./img/tools_lombok_1.png>]
+<img/big_data_neo4j.png, id=191, 483.60675pt x 422.17725pt>
+File: img/big_data_neo4j.png Graphic file (type png)
+
+<use img/big_data_neo4j.png>
+Package pdftex.def Info: img/big_data_neo4j.png used on input line 42.
+(pdftex.def)             Requested size: 364.19667pt x 317.93985pt.
+
+<img/tools_neo4j_1.png, id=192, 455.301pt x 56.6115pt>
+File: img/tools_neo4j_1.png Graphic file (type png)
+
+<use img/tools_neo4j_1.png>
+Package pdftex.def Info: img/tools_neo4j_1.png used on input line 48.
+(pdftex.def)             Requested size: 455.24411pt x 56.60616pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21 <./img/tools_apache_spark_streaming_1.png> <./img/big_data_neo4j.png>]
+<img/nlp_stanford_nlp_bond.png, id=201, 751.608pt x 369.17924pt>
+File: img/nlp_stanford_nlp_bond.png Graphic file (type png)
+
+<use img/nlp_stanford_nlp_bond.png>
+Package pdftex.def Info: img/nlp_stanford_nlp_bond.png used on input line 58.
+(pdftex.def)             Requested size: 455.24411pt x 223.61044pt.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22 <./img/tools_neo4j_1.png> <./img/nlp_stanford_nlp_bond.png>]
+(chapters/chapter_7.tex
 Rozdzia\l  6.
+<img/twitter_analyser_1.png, id=210, 1156.32pt x 543.83176pt>
+File: img/twitter_analyser_1.png Graphic file (type png)
+
+<use img/twitter_analyser_1.png>
+Package pdftex.def Info: img/twitter_analyser_1.png used on input line 6.
+(pdftex.def)             Requested size: 455.24411pt x 214.10168pt.
+
+<img/twitter_analyser_thanks_giving_2.png, id=211, 1141.866pt x 692.5875pt>
+File: img/twitter_analyser_thanks_giving_2.png Graphic file (type png)
+
+<use img/twitter_analyser_thanks_giving_2.png>
+Package pdftex.def Info: img/twitter_analyser_thanks_giving_2.png used on input
+ line 12.
+(pdftex.def)             Requested size: 455.24411pt x 276.12123pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/twitter_analyser_thanks_giving_1.png, id=212, 1154.51324pt x 692.5875pt>
+File: img/twitter_analyser_thanks_giving_1.png Graphic file (type png)
+
+<use img/twitter_analyser_thanks_giving_1.png>
+Package pdftex.def Info: img/twitter_analyser_thanks_giving_1.png used on input
+ line 18.
+(pdftex.def)             Requested size: 455.24411pt x 273.09879pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/twitter_analyser_class_diagram.png, id=213, 907.2294pt x 529.98pt>
+File: img/twitter_analyser_class_diagram.png Graphic file (type png)
+
+<use img/twitter_analyser_class_diagram.png>
+Package pdftex.def Info: img/twitter_analyser_class_diagram.png used on input l
+ine 24.
+(pdftex.def)             Requested size: 682.86617pt x 398.92346pt.
+
+
+LaTeX Warning: Float too large for page by 12.08308pt on input line 26.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [23
+
+
+ <./img/twitter_analyser_1.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24 <./img/twitter_analyser_thanks_giving_2.png> <./img/twitter_analyser_thanks
+_giving_1.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25 <./img/twitter_analyser_class_diagram.png>] [26
+
+] (chapters/chapter_8.tex
+Rozdzia\l  7.
+) [27
+
+] [28
+
+] (chapters/chapter_9.tex
+Rozdzia\l  8.
 ) [29
 
 ] [30
-
-] (chapters/chapter_7.tex
-Rozdzia\l  7.
-) [31
-
-] [32
-
-] (chapters/chapter_8.tex
-Rozdzia\l  8.
-) [33
-
-] [34
-
-] (chapters/chapter_9.tex
-Rozdzia\l  9.
-) [35
-
-] [36
 
 ] (back_matter/bibliography.tex
 
 LaTeX Warning: Empty bibliography on input line 1.
 
+LaTeX Font Info:    Try loading font information for T1+zi4 on input line 5.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\inconsolata\t1zi4.fd"
+File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
+)
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 10.95pt on input line 5.
 
-LaTeX Warning: Empty `thebibliography' environment on input line 150.
+Underfull \hbox (badness 2865) in paragraph at lines 7--8
+[][]$\T1/zi4/m/n/10.95 https : / / medium . com / @ssola / playing-[]with-[]twi
+tter-[]streaming-[]api-[]b1f8912e50b0$[] \T1/ua1/m/n/10.95 [Do-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+[][]$\T1/zi4/m/n/10.95 https : / / developer . twitter . com / en / docs / twee
+ts / search / api-[]reference /
+ []
+
+
+Overfull \hbox (115.01952pt too wide) in paragraph at lines 11--12
+[][]$\T1/zi4/m/n/10.95 http : / / 140dev . com / twitter-[]api-[]programming-[]
+tutorials / aggregating-[]tweets-[]search-[]api-[]vs-[]streaming-[]api/$[]
+ []
+
+
+Overfull \hbox (43.34464pt too wide) in paragraph at lines 13--14
+[][]$\T1/zi4/m/n/10.95 https : / / www . talkwalker . com / blog / 5-[]free-[]t
+witter-[]analytics-[]tools-[]with-[]views-[]from-[]experts$[]
+ []
+
+
+Overfull \hbox (38.36964pt too wide) in paragraph at lines 32--33
+[][]$\T1/zi4/m/n/10.95 https : / / blog . brand24 . pl / co-[]to-[]jest-[]anali
+za-[]sentymentu-[]oraz-[]jak-[]mozesz-[]ja-[]wykorzystac/$[]
+ []
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
- [37
+ [31
 
 
 ]
@@ -2204,7 +2210,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 28.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 4AECBF56B2BF985EF9C692C6ED0B3694;7110.
+(rerunfilecheck)             Checksum: B99C4D1DFC20ADE22859D308D4347691;1268.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2215,23 +2221,25 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
  ) 
 Here is how much of TeX's memory you used:
- 32401 strings out of 493328
- 576141 string characters out of 3136538
- 1104588 words of memory out of 3000000
- 35403 multiletter control sequences out of 15000+200000
- 663491 words of font info for 119 fonts, out of 3000000 for 9000
+ 32380 strings out of 493328
+ 575923 string characters out of 3136538
+ 1108588 words of memory out of 3000000
+ 35404 multiletter control sequences out of 15000+200000
+ 653592 words of font info for 117 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,10n,63p,1380b,2470s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/enc/dvips/pl/plrm.enc}{C:/Program Files (x86)/MiKTeX
- 2.9/fonts/enc/dvips/pl/plms.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
-/public/pl/plr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/pl/pl
-sy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on thesis.pdf (45 pages, 2761700 bytes).
+ 42i,11n,63p,1389b,2470s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/inconsolata/i4-t1-0.enc}{C
+:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/enc/dvips/pl/plrm.enc}{C:/Program Files (x86)/MiKTeX 2.9
+/fonts/enc/dvips/pl/plms.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/inconsolata/Inconsolata-zi4r.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/pl/plr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/p
+l/plsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/urw/arial/ua1ri8a.pfb>
+Output written on thesis.pdf (39 pages, 1837356 bytes).
 PDF statistics:
- 499 PDF objects out of 1000 (max. 8388607)
- 107 named destinations out of 1000 (max. 500000)
- 410 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 333 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
+ 140 words of extra memory for PDF output out of 10000 (max. 10000000)
 
