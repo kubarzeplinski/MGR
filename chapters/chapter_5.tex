@@ -1,8 +1,8 @@
 \chapter{Wymagania funkcjonalne i niefunkcjonalne}
-Jak już zostało wspomniane w rozdziale dotyczącym serwisu Twitter, przy okazji omówienia dostępnych narzędzi, nie ma obecnie na rynku aplikacji, która umożliwiałaby śledzenie występowania dowolnego słowa w wiadomościach zamieszczanych w czasie rzeczywistym w tym serwisie, rysowałaby wykres zależności pomiędzy użytkownikami, analizowałaby nastroje społeczne użytkowników z wyświetleniem informacji o nastroju wyrażanym w poszczególnych wiadomościach oraz pozwalałaby na analizowanie danych historycznych i zamieszczanych w czasie rzeczywistym. Głównym celem tej pracy dyplomowej jest stworzenie aplikacji, która posiadałaby wspomniane funkcjonalności.
+\qquad Jak już zostało wspomniane w rozdziale dotyczącym serwisu Twitter przy okazji omówienia dostępnych narzędzi, nie ma obecnie na rynku aplikacji, która umożliwiałaby śledzenie występowania dowolnego słowa w wiadomościach zamieszczanych w czasie rzeczywistym w tym serwisie, rysowałaby wykres zależności pomiędzy użytkownikami, analizowałaby nastroje społeczne użytkowników z wyświetleniem informacji o nastroju wyrażanym w poszczególnych wiadomościach oraz pozwalałaby na analizowanie danych historycznych i zamieszczanych w czasie rzeczywistym. Głównym celem tej pracy dyplomowej jest stworzenie aplikacji, która posiadałaby wspomniane funkcjonalności.
 
-\section{Wymagania funkcjonalne}
-Główną funkcjonalnością, którą powinna zapewnić budowana aplikacja jest dostęp do usystematyzowanych danych pochodzących z sewisu Twitter, które będą nieść ze sobą informację o sentymencie. Dane te powinny być także przechowywane w taki sposób, aby móc zapewnić do nich dostęp w dowolnym momencie oraz spoza zaimplementowanego narzędzia. \\
+Główną funkcjonalnością, którą powinna zapewnić budowana aplikacja jest dostęp do usystematyzowanych danych pochodzących z sewisu Twitter, które będą nieść ze sobą informację o sentymencie. Dane te powinny być także przechowywane w taki sposób, aby móc zapewnić do nich dostęp w dowolnym momencie oraz spoza zaimplementowanego narzędzia.
+
 Wymagania funkcjonalne, które dotyczą budowanego rozwiązania to: 
 \begin{itemize}
 	\item[--] \textbf{przetwarzanie danych z serwisu Twitter} - aplikacja powinna przetwarzać tweety użytkowników serwisu Twitter, do których dostęp można uzyskać przez Streaming API tego serwisu, które zostało szczegółowo omówione w rozdziale 2.; 
@@ -18,29 +18,27 @@ Wymagania funkcjonalne, które dotyczą budowanego rozwiązania to:
 	\item[--] \textbf{przyjazny interfejs graficzny} - narzędzie powinno posiadać wygodny, łatwy do nauczenia oraz prosty interfejs graficzny.
 \end{itemize}
 
+Wymagania niefunkcjonalne, które powinna spełniać przygotowywana aplikacja to: 
 
-\section{Wymagania niefunkcjonalne}
-Tworzone rozwiązanie będzie także analizowało wydźwięk wypowiedzi użytkowników. Wymagania niefunkcjonalne, które powinna spełniać przygotowywana aplikacja to: \\
-\\
-\textbf{Spełnienie głównych założeń systemu czasu rzeczywistego} \\
-\\
-Głównym przypadkiem biznesowym, dla którego tworzona jest wspomniana aplikacja jest sytuacja dużego i globalnego zainteresowania pewnym tematem, które objawia się odnoszeniem się do niego w wiadomościach zamieszczanych przez użytkowników serwisu Twitter. Można stwierdzić, że przygotowywane narzędzie będzie przykładem systemem czasu rzeczywistego jeśli system ten będzie "\textit{urządzeniem techniczne, którego wynik i efekt działania będzie zależny od chwili wypracowania tego wyniku}". Wspólną cechą definicji takiego systemu jest "\textit{zwrócenie uwagi na równoległość w czasie zmian w środowisku oraz obliczeń realizowanych na podstawie stanu środowiska}". \\
-\\
-\textbf{Płynna obsługa danych} \\
-\\
-Budowany system powinien przetwarzać dane w czasie nie większym niż tempo napływania nowych informacji. Koniecznością jest zatem skorzystanie z narzędzi umożliwiających sprawne przetwarzanie danych, ale także ich zapis do bazy w czasie nie większym niż czas trwania określonego okna czasowego. \\
-\\
-\textbf{Możliwość działania aplikacji i analizowania danych historycznych w trybie offline} \\
-\\
-Dane zapisane podczas sesji korzystania ze strumienia danych serwisu Twitter będą zapisywane w lokalnej bazie danych, dlatego stworzone narzędzie powinno umożliwiać analizowanie danych historycznych bez połączenia z internetem. \\
-\\
-\textbf{Jednorazowe przetwarzanie informacji ze strumienia danych} \\ 
-\\
-Aplikacja powinna tylko jeden raz przetwarzać i zapisywać do bazy danych informacje pozyskane ze strumienia. Jeśli w bazie istnieje już informacja o użytkowniku to nowe wiadomości powinny być z nim powiązane. \\ 
-\\ 
-\textbf{Niezawodność} \\
+\textbf{Spełnienie głównych założeń systemu czasu rzeczywistego}
+
+Głównym przypadkiem biznesowym, dla którego tworzona jest wspomniana aplikacja jest sytuacja dużego i globalnego zainteresowania pewnym tematem, które objawia się odnoszeniem się do niego w wiadomościach zamieszczanych przez użytkowników serwisu Twitter. Można stwierdzić, że przygotowywane narzędzie będzie przykładem systemem czasu rzeczywistego jeśli system ten będzie "\textit{urządzeniem technicznym, którego wynik i efekt działania będzie zależny od chwili wypracowania tego wyniku}". Wspólną cechą definicji takiego systemu jest "\textit{zwrócenie uwagi na równoległość w czasie zmian w środowisku oraz obliczeń realizowanych na podstawie stanu środowiska}".
+
+\textbf{Płynna obsługa danych}
+
+Budowany system powinien przetwarzać dane w czasie nie większym niż tempo napływania nowych informacji. Koniecznością jest zatem skorzystanie z narzędzi umożliwiających sprawne przetwarzanie danych, ale także ich zapis do bazy w czasie nie większym niż czas trwania określonego okna czasowego.
+
+\textbf{Możliwość działania aplikacji i analizowania danych historycznych w trybie offline}
+
+Dane zapisane podczas sesji korzystania ze strumienia danych serwisu Twitter będą zapisywane w lokalnej bazie danych, dlatego stworzone narzędzie powinno umożliwiać analizowanie danych historycznych bez połączenia z internetem.
+
+\textbf{Jednorazowe przetwarzanie informacji ze strumienia danych} 
+
+Aplikacja powinna tylko jeden raz przetwarzać i zapisywać do bazy danych informacje pozyskane ze strumienia. Jeśli w bazie istnieje już informacja o użytkowniku to nowe wiadomości powinny być z nim powiązane. 
+ 
+\textbf{Niezawodność}
+
 System powinien charakteryzować się niezawodnością podczas pracy z dużą ilością danych napływających w krótkich odstępach czasu oraz jak najbliższym prawdy określaniem sentymentu wypowiedzi zawartej w wielu wiadomościach.
 
-\section{Podsumowanie}
-System napisany na potrzeby tej pracy dyplomowej powinien spełniać wszystkie z wymienionych wymagań niefunkcjonalnych, ponieważ nie spełnienie nawet jednej z nich może spowodować, że aplikacja będzie nieużyteczna. Postawione wymagania funkcjonalne i niefunkcjonalne, łącząc się z opisem serwisu Twitter, narzędzi Big Data oraz przetwarzania języka naturalnego, definiują potrzeby jakie powinny umożliwiać narzędzia wybrane do jej budowy oraz samo narzędzie. Zostanie to omówione w następnych rozdziałach.
+System napisany na potrzeby tej pracy dyplomowej powinien spełniać wszystkie z wymienionych wymagań niefunkcjonalnych, ponieważ nie spełnienie nawet jednej z nich może spowodować, że aplikacja będzie nieużyteczna. Postawione wymagania funkcjonalne i niefunkcjonalne, łącząc się z opisem serwisu Twitter, narzędzi Big Data oraz analizą sentymentu wypowiedzi, definiują potrzeby jakie powinny umożliwiać narzędzia wybrane do jej budowy oraz samo narzędzie. Zostanie to omówione w następnych rozdziałach.
 
