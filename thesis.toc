@@ -11,5 +11,5 @@
 \contentsline {chapter}{\numberline {4}Wymagania funkcjonalne i niefunkcjonalne}{15}{chapter.4}
 \contentsline {chapter}{\numberline {5}Wyb\IeC {\'o}r narz\IeC {\k e}dzi}{19}{chapter.5}
 \contentsline {chapter}{\numberline {6}Aplikacja Twitter Analyser}{23}{chapter.6}
-\contentsline {chapter}{\numberline {7}Badania i wnioski}{27}{chapter.7}
-\contentsline {chapter}{\numberline {8}Podsumowanie}{29}{chapter.8}
+\contentsline {chapter}{\numberline {7}Badania i wnioski}{37}{chapter.7}
+\contentsline {chapter}{\numberline {8}Podsumowanie}{39}{chapter.8}

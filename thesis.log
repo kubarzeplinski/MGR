@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300) (preloaded format=pdflatex 2018.11.4)  29 DEC 2018 19:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300) (preloaded format=pdflatex 2018.11.4)  12 JAN 2019 20:44
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -437,6 +437,25 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \TX@cols=\count89
 \TX@ftn=\toks17
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count90
+))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -454,9 +473,9 @@ Package ifvtex Info: VTeX not detected.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count90
-\Gm@cntv=\count91
-\c@Gm@tempcnt=\count92
+\Gm@cnth=\count91
+\Gm@cntv=\count92
+\c@Gm@tempcnt=\count93
 \Gm@bindingoffset=\dimen115
 \Gm@wd@mp=\dimen116
 \Gm@odd@mp=\dimen117
@@ -478,8 +497,8 @@ Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
@@ -521,15 +540,15 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen123
-\Hy@linkcounter=\count93
-\Hy@pagecounter=\count94
+\Hy@linkcounter=\count94
+\Hy@pagecounter=\count95
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count95
+\Hy@SavedSpaceFactor=\count96
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -548,7 +567,7 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count96
+\c@Hy@tempcnt=\count97
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
@@ -556,7 +575,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen124
-\Fld@menulength=\count97
+\Fld@menulength=\count98
 \Field@Width=\dimen125
 \Fld@charsize=\dimen126
 Package hyperref Info: Hyper figures OFF on input line 6358.
@@ -568,17 +587,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count98
-\c@Item=\count99
-\c@Hfootnote=\count100
+\Hy@abspage=\count99
+\c@Item=\count100
+\c@Hfootnote=\count101
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count101
-\c@bookmark@seq@number=\count102
+\Fld@listcount=\count102
+\c@bookmark@seq@number=\count103
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -587,18 +606,18 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip45
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 37.
+Package hyperref Info: Option `colorlinks' set `false' on input line 38.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
 Package: biblatex 2018/03/04 v3.11 programmable bibliographies (PK/MW)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count103
+\etb@tempcnta=\count104
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count104
+\lrq@indent=\count105
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -609,49 +628,49 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
 \@xs@message=\write3
-\integerpart=\count105
-\decimalpart=\count106
+\integerpart=\count106
+\decimalpart=\count107
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count107
-\c@listtotal=\count108
-\c@listcount=\count109
-\c@liststart=\count110
-\c@liststop=\count111
-\c@citecount=\count112
-\c@citetotal=\count113
-\c@multicitecount=\count114
-\c@multicitetotal=\count115
-\c@instcount=\count116
-\c@maxnames=\count117
-\c@minnames=\count118
-\c@maxitems=\count119
-\c@minitems=\count120
-\c@citecounter=\count121
-\c@savedcitecounter=\count122
-\c@uniquelist=\count123
-\c@uniquename=\count124
-\c@refsection=\count125
-\c@refsegment=\count126
-\c@maxextratitle=\count127
-\c@maxextratitleyear=\count128
-\c@maxextradate=\count129
-\c@maxextraalpha=\count130
-\c@abbrvpenalty=\count131
-\c@highnamepenalty=\count132
-\c@lownamepenalty=\count133
-\c@maxparens=\count134
-\c@parenlevel=\count135
-\blx@tempcnta=\count136
-\blx@tempcntb=\count137
-\blx@tempcntc=\count138
-\blx@maxsection=\count139
-\blx@maxsegment@0=\count140
-\blx@notetype=\count141
-\blx@parenlevel@text=\count142
-\blx@parenlevel@foot=\count143
-\blx@sectionciteorder@0=\count144
+\c@tabx@nest=\count108
+\c@listtotal=\count109
+\c@listcount=\count110
+\c@liststart=\count111
+\c@liststop=\count112
+\c@citecount=\count113
+\c@citetotal=\count114
+\c@multicitecount=\count115
+\c@multicitetotal=\count116
+\c@instcount=\count117
+\c@maxnames=\count118
+\c@minnames=\count119
+\c@maxitems=\count120
+\c@minitems=\count121
+\c@citecounter=\count122
+\c@savedcitecounter=\count123
+\c@uniquelist=\count124
+\c@uniquename=\count125
+\c@refsection=\count126
+\c@refsegment=\count127
+\c@maxextratitle=\count128
+\c@maxextratitleyear=\count129
+\c@maxextradate=\count130
+\c@maxextraalpha=\count131
+\c@abbrvpenalty=\count132
+\c@highnamepenalty=\count133
+\c@lownamepenalty=\count134
+\c@maxparens=\count135
+\c@parenlevel=\count136
+\blx@tempcnta=\count137
+\blx@tempcntb=\count138
+\blx@tempcntc=\count139
+\blx@maxsection=\count140
+\blx@maxsegment@0=\count141
+\blx@notetype=\count142
+\blx@parenlevel@text=\count143
+\blx@parenlevel@foot=\count144
+\blx@sectionciteorder@0=\count145
 \labelnumberwidth=\skip46
 \labelalphawidth=\skip47
 \biblabelsep=\skip48
@@ -662,9 +681,9 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \bibhang=\skip53
 \blx@bcfin=\read1
 \blx@bcfout=\write4
-\c@mincomprange=\count145
-\c@maxcomprange=\count146
-\c@mincompwidth=\count147
+\c@mincomprange=\count146
+\c@maxcomprange=\count147
+\c@mincompwidth=\count148
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -675,74 +694,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count148
-\c@savedafterword=\count149
-\c@annotator=\count150
-\c@savedannotator=\count151
-\c@author=\count152
-\c@savedauthor=\count153
-\c@bookauthor=\count154
-\c@savedbookauthor=\count155
-\c@commentator=\count156
-\c@savedcommentator=\count157
-\c@editor=\count158
-\c@savededitor=\count159
-\c@editora=\count160
-\c@savededitora=\count161
-\c@editorb=\count162
-\c@savededitorb=\count163
-\c@editorc=\count164
-\c@savededitorc=\count165
-\c@foreword=\count166
-\c@savedforeword=\count167
-\c@holder=\count168
-\c@savedholder=\count169
-\c@introduction=\count170
-\c@savedintroduction=\count171
-\c@namea=\count172
-\c@savednamea=\count173
-\c@nameb=\count174
-\c@savednameb=\count175
-\c@namec=\count176
-\c@savednamec=\count177
-\c@translator=\count178
-\c@savedtranslator=\count179
-\c@shortauthor=\count180
-\c@savedshortauthor=\count181
-\c@shorteditor=\count182
-\c@savedshorteditor=\count183
-\c@labelname=\count184
-\c@savedlabelname=\count185
-\c@institution=\count186
-\c@savedinstitution=\count187
-\c@lista=\count188
-\c@savedlista=\count189
-\c@listb=\count190
-\c@savedlistb=\count191
-\c@listc=\count192
-\c@savedlistc=\count193
-\c@listd=\count194
-\c@savedlistd=\count195
-\c@liste=\count196
-\c@savedliste=\count197
-\c@listf=\count198
-\c@savedlistf=\count199
-\c@location=\count266
-\c@savedlocation=\count267
-\c@organization=\count268
-\c@savedorganization=\count269
-\c@origlocation=\count270
-\c@savedoriglocation=\count271
-\c@origpublisher=\count272
-\c@savedorigpublisher=\count273
-\c@publisher=\count274
-\c@savedpublisher=\count275
-\c@language=\count276
-\c@savedlanguage=\count277
-\c@origlanguage=\count278
-\c@savedoriglanguage=\count279
-\c@pageref=\count280
-\c@savedpageref=\count281
+\c@afterword=\count149
+\c@savedafterword=\count150
+\c@annotator=\count151
+\c@savedannotator=\count152
+\c@author=\count153
+\c@savedauthor=\count154
+\c@bookauthor=\count155
+\c@savedbookauthor=\count156
+\c@commentator=\count157
+\c@savedcommentator=\count158
+\c@editor=\count159
+\c@savededitor=\count160
+\c@editora=\count161
+\c@savededitora=\count162
+\c@editorb=\count163
+\c@savededitorb=\count164
+\c@editorc=\count165
+\c@savededitorc=\count166
+\c@foreword=\count167
+\c@savedforeword=\count168
+\c@holder=\count169
+\c@savedholder=\count170
+\c@introduction=\count171
+\c@savedintroduction=\count172
+\c@namea=\count173
+\c@savednamea=\count174
+\c@nameb=\count175
+\c@savednameb=\count176
+\c@namec=\count177
+\c@savednamec=\count178
+\c@translator=\count179
+\c@savedtranslator=\count180
+\c@shortauthor=\count181
+\c@savedshortauthor=\count182
+\c@shorteditor=\count183
+\c@savedshorteditor=\count184
+\c@labelname=\count185
+\c@savedlabelname=\count186
+\c@institution=\count187
+\c@savedinstitution=\count188
+\c@lista=\count189
+\c@savedlista=\count190
+\c@listb=\count191
+\c@savedlistb=\count192
+\c@listc=\count193
+\c@savedlistc=\count194
+\c@listd=\count195
+\c@savedlistd=\count196
+\c@liste=\count197
+\c@savedliste=\count198
+\c@listf=\count199
+\c@savedlistf=\count266
+\c@location=\count267
+\c@savedlocation=\count268
+\c@organization=\count269
+\c@savedorganization=\count270
+\c@origlocation=\count271
+\c@savedoriglocation=\count272
+\c@origpublisher=\count273
+\c@savedorigpublisher=\count274
+\c@publisher=\count275
+\c@savedpublisher=\count276
+\c@language=\count277
+\c@savedlanguage=\count278
+\c@origlanguage=\count279
+\c@savedoriglanguage=\count280
+\c@pageref=\count281
+\c@savedpageref=\count282
 \shorthandwidth=\skip54
 \shortjournalwidth=\skip55
 \shortserieswidth=\skip56
@@ -768,13 +787,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
 File: biblatex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
-\c@textcitecount=\count282
-\c@textcitetotal=\count283
-\c@textcitemaxnames=\count284
-\c@biburlnumpenalty=\count285
-\c@biburlucpenalty=\count286
-\c@biburllcpenalty=\count287
-\c@smartand=\count288
+\c@textcitecount=\count283
+\c@textcitetotal=\count284
+\c@textcitemaxnames=\count285
+\c@biburlnumpenalty=\count286
+\c@biburlucpenalty=\count287
+\c@biburllcpenalty=\count288
+\c@smartand=\count289
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
@@ -786,8 +805,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
 File: standard.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count289
-\c@bbx:relatedtotal=\count290
+\c@bbx:relatedcount=\count290
+\c@bbx:relatedtotal=\count291
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -810,12 +829,12 @@ File: biblatex.cfg
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty"
 Package: csquotes 2018/04/13 v5.2d context-sensitive quotations (JAW)
-\csq@reset=\count291
-\csq@gtype=\count292
-\csq@glevel=\count293
-\csq@qlevel=\count294
-\csq@maxlvl=\count295
-\csq@tshold=\count296
+\csq@reset=\count292
+\csq@gtype=\count293
+\csq@glevel=\count294
+\csq@qlevel=\count295
+\csq@maxlvl=\count296
+\csq@tshold=\count297
 \csq@ltx@everypar=\toks20
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\csquotes\csquotes.def"
@@ -832,7 +851,7 @@ Package csquotes Info: Redefining alias 'polish' -> 'polish/quotes'.
 
 
 Package csquotes Warning: '\DeclareQuoteOption' invalid at this point.
-(csquotes)                Ignoring command on input line 53.
+(csquotes)                Ignoring command on input line 54.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
@@ -847,11 +866,7 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-\Gread@gobject=\count297
-))
+)
 \Gin@req@height=\dimen127
 \Gin@req@width=\dimen128
 )
@@ -1481,6 +1496,32 @@ LaTeX Font Info:    Try loading font information for T1+ua1 on input line 4.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arial\t1ua1.fd"
 File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count433
+\scratchdimen=\dimen267
+\scratchbox=\box50
+\nofMPsegments=\count434
+\nofMParguments=\count435
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count436
+\MPscratchDim=\dimen268
+\MPnumerator=\count437
+\makeMPintoPDFobject=\count438
+\everyMPtoPDFconversion=\toks29
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1515,7 +1556,7 @@ File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box50
+\AtBeginShipoutBox=\box51
 Package hyperref Info: Link coloring OFF on input line 4.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1523,7 +1564,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count433
+\c@section@level=\count439
 )
 LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
@@ -1543,33 +1584,6 @@ Package biblatex Info: ... file 'thesis.bbl' found.
  (thesis.bbl)
 Package biblatex Info: Reference section=0 on input line 4.
 Package biblatex Info: Reference segment=0 on input line 4.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count434
-\scratchdimen=\dimen267
-\scratchbox=\box51
-\nofMPsegments=\count435
-\nofMParguments=\count436
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count437
-\MPscratchDim=\dimen268
-\MPnumerator=\count438
-\makeMPintoPDFobject=\count439
-\everyMPtoPDFconversion=\toks29
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
@@ -1718,11 +1732,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Overfull \hbox (38.49481pt too wide) in paragraph at lines 14--15
-[]\T1/ua1/m/n/10.95 Obie formy API wy-ma-gaj¡ wcze-±niej-szej re-je-stra-cji na
- stro-nie \T1/ua1/m/it/10.95 https://developer.twitter.com/en/apply-
- []
-
 <img/twitter_api_comparison.png, id=98, 566.115pt x 360.34625pt>
 File: img/twitter_api_comparison.png Graphic file (type png)
 
@@ -1940,7 +1949,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [11
 
 ]
-LaTeX Font Info:    Try loading font information for TS1+ua1 on input line 17.
+LaTeX Font Info:    Try loading font information for TS1+ua1 on input line 15.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arial\ts1ua1.fd"
 File: ts1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for TS1/ua1.
@@ -1971,12 +1980,6 @@ Rozdzia\l  4.
 
 
 ]
-Overfull \hbox (0.58139pt too wide) in paragraph at lines 13--14
-\T1/ua1/m/n/10.95 ka-cja po-winna umo»-li-wia¢ ana-li-zo-wa-nie pod-sta-wo-wych
- in-for-ma-cji o wia-do-mo-±ciach i u»yt-
- []
-
-
 Overfull \hbox (6.48355pt too wide) in paragraph at lines 15--16
 []\T1/ua1/b/n/10.95 dost¦p do szcze-gó-ªo-wej in-for-ma-cji o wia-do-mo-±ci \T1
 /ua1/m/n/10.95 - apli-ka-cja po-winna wy-±wie-tla¢ szcze-
@@ -2044,36 +2047,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [20 <./img/tools_lombok_1.png>]
-<img/big_data_neo4j.png, id=191, 483.60675pt x 422.17725pt>
-File: img/big_data_neo4j.png Graphic file (type png)
-
-<use img/big_data_neo4j.png>
-Package pdftex.def Info: img/big_data_neo4j.png used on input line 42.
-(pdftex.def)             Requested size: 364.19667pt x 317.93985pt.
-
-<img/tools_neo4j_1.png, id=192, 455.301pt x 56.6115pt>
+<img/tools_neo4j_1.png, id=191, 455.301pt x 56.6115pt>
 File: img/tools_neo4j_1.png Graphic file (type png)
 
 <use img/tools_neo4j_1.png>
-Package pdftex.def Info: img/tools_neo4j_1.png used on input line 48.
+Package pdftex.def Info: img/tools_neo4j_1.png used on input line 42.
 (pdftex.def)             Requested size: 455.24411pt x 56.60616pt.
+
+<img/nlp_stanford_nlp_bond.png, id=192, 751.608pt x 369.17924pt>
+File: img/nlp_stanford_nlp_bond.png Graphic file (type png)
+
+<use img/nlp_stanford_nlp_bond.png>
+Package pdftex.def Info: img/nlp_stanford_nlp_bond.png used on input line 54.
+(pdftex.def)             Requested size: 455.24411pt x 223.61044pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[21 <./img/tools_apache_spark_streaming_1.png> <./img/big_data_neo4j.png>]
-<img/nlp_stanford_nlp_bond.png, id=201, 751.608pt x 369.17924pt>
-File: img/nlp_stanford_nlp_bond.png Graphic file (type png)
-
-<use img/nlp_stanford_nlp_bond.png>
-Package pdftex.def Info: img/nlp_stanford_nlp_bond.png used on input line 58.
-(pdftex.def)             Requested size: 455.24411pt x 223.61044pt.
 )
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2081,83 +2071,333 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22 <./img/tools_neo4j_1.png> <./img/nlp_stanford_nlp_bond.png>]
-(chapters/chapter_7.tex
+[21 <./img/tools_apache_spark_streaming_1.png> <./img/tools_neo4j_1.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22 <./img/nlp_stanford_nlp_bond.png>] (chapters/chapter_7.tex
 Rozdzia\l  6.
-<img/twitter_analyser_1.png, id=210, 1156.32pt x 543.83176pt>
+<img/twitter_analyser_1.png, id=207, 1156.32pt x 543.83176pt>
 File: img/twitter_analyser_1.png Graphic file (type png)
 
 <use img/twitter_analyser_1.png>
-Package pdftex.def Info: img/twitter_analyser_1.png used on input line 6.
+Package pdftex.def Info: img/twitter_analyser_1.png used on input line 15.
 (pdftex.def)             Requested size: 455.24411pt x 214.10168pt.
+ [23
 
-<img/twitter_analyser_thanks_giving_2.png, id=211, 1141.866pt x 692.5875pt>
+
+ <./img/twitter_analyser_1.png>]
+<img/twitter_analyser_thanks_giving_2.png, id=217, 1141.866pt x 692.5875pt>
 File: img/twitter_analyser_thanks_giving_2.png Graphic file (type png)
 
 <use img/twitter_analyser_thanks_giving_2.png>
 Package pdftex.def Info: img/twitter_analyser_thanks_giving_2.png used on input
- line 12.
+ line 36.
 (pdftex.def)             Requested size: 455.24411pt x 276.12123pt.
+
+<img/twitter_analyser_apache_spark_configuration.png, id=218, 442.0515pt x 133.
+09724pt>
+File: img/twitter_analyser_apache_spark_configuration.png Graphic file (type pn
+g)
+ <use img/twitter_analyser_apache_spark_configuration.png>
+Package pdftex.def Info: img/twitter_analyser_apache_spark_configuration.png us
+ed on input line 44.
+(pdftex.def)             Requested size: 364.19667pt x 109.66034pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<img/twitter_analyser_thanks_giving_1.png, id=212, 1154.51324pt x 692.5875pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24 <./img/twitter_analyser_thanks_giving_2.png>]
+<img/twitter_analyser_process_data.png, id=224, 505.28775pt x 404.712pt>
+File: img/twitter_analyser_process_data.png Graphic file (type png)
+
+<use img/twitter_analyser_process_data.png>
+Package pdftex.def Info: img/twitter_analyser_process_data.png used on input li
+ne 54.
+(pdftex.def)             Requested size: 455.24411pt x 364.63266pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/twitter_analyser_process_data_2.png, id=225, 572.1375pt x 265.59225pt>
+File: img/twitter_analyser_process_data_2.png Graphic file (type png)
+
+<use img/twitter_analyser_process_data_2.png>
+Package pdftex.def Info: img/twitter_analyser_process_data_2.png used on input 
+line 62.
+(pdftex.def)             Requested size: 455.24411pt x 211.33124pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/twitter_analyser_twitter_user.png, id=226, 402.90524pt x 439.04025pt>
+File: img/twitter_analyser_twitter_user.png Graphic file (type png)
+
+<use img/twitter_analyser_twitter_user.png>
+Package pdftex.def Info: img/twitter_analyser_twitter_user.png used on input li
+ne 68.
+(pdftex.def)             Requested size: 455.24411pt x 496.10301pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/twitter_analyser_keyword.png, id=227, 425.1885pt x 219.219pt>
+File: img/twitter_analyser_keyword.png Graphic file (type png)
+
+<use img/twitter_analyser_keyword.png>
+Package pdftex.def Info: img/twitter_analyser_keyword.png used on input line 74
+.
+(pdftex.def)             Requested size: 455.24411pt x 234.72923pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<img/twitter_analyser_interested_in_relation.png, id=228, 505.28775pt x 380.622
+pt>
+File: img/twitter_analyser_interested_in_relation.png Graphic file (type png)
+ <use img/twitter_analyser_interested_in_relation.png>
+Package pdftex.def Info: img/twitter_analyser_interested_in_relation.png used o
+n input line 80.
+(pdftex.def)             Requested size: 455.24411pt x 342.92831pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<img/twitter_analyser_retweeted_to_relation.png, id=229, 533.5935pt x 381.22424
+pt>
+File: img/twitter_analyser_retweeted_to_relation.png Graphic file (type png)
+ <use img/twitter_analyser_retweeted_to_relation.png>
+Package pdftex.def Info: img/twitter_analyser_retweeted_to_relation.png used on
+ input line 86.
+(pdftex.def)             Requested size: 455.24411pt x 325.2637pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/big_data_neo4j.png, id=230, 483.60675pt x 422.17725pt>
+File: img/big_data_neo4j.png Graphic file (type png)
+
+<use img/big_data_neo4j.png>
+Package pdftex.def Info: img/big_data_neo4j.png used on input line 92.
+(pdftex.def)             Requested size: 455.24411pt x 397.42644pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<img/twitter_analyser_websocket_configuration_2.png, id=231, 433.62pt x 259.569
+75pt>
+File: img/twitter_analyser_websocket_configuration_2.png Graphic file (type png
+)
+ <use img/twitter_analyser_websocket_configuration_2.png>
+Package pdftex.def Info: img/twitter_analyser_websocket_configuration_2.png use
+d on input line 100.
+(pdftex.def)             Requested size: 455.24411pt x 272.52855pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<img/twitter_analyser_websocket_configuration_1.png, id=232, 359.54324pt x 143.
+3355pt>
+File: img/twitter_analyser_websocket_configuration_1.png Graphic file (type png
+)
+ <use img/twitter_analyser_websocket_configuration_1.png>
+Package pdftex.def Info: img/twitter_analyser_websocket_configuration_1.png use
+d on input line 106.
+(pdftex.def)             Requested size: 455.24411pt x 181.49162pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 2689) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25 <./img/twitter_analyser_apache_spark_configuration.png>]
+Underfull \vbox (badness 1931) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26 <./img/twitter_analyser_process_data.png>]
+<img/twitter_analyser_thanks_giving_1.png, id=245, 1154.51324pt x 692.5875pt>
 File: img/twitter_analyser_thanks_giving_1.png Graphic file (type png)
 
 <use img/twitter_analyser_thanks_giving_1.png>
 Package pdftex.def Info: img/twitter_analyser_thanks_giving_1.png used on input
- line 18.
+ line 122.
 (pdftex.def)             Requested size: 455.24411pt x 273.09879pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<img/twitter_analyser_class_diagram.png, id=213, 907.2294pt x 529.98pt>
-File: img/twitter_analyser_class_diagram.png Graphic file (type png)
+<img/twitter_analyser_user_profile.png, id=246, 414.348pt x 255.354pt>
+File: img/twitter_analyser_user_profile.png Graphic file (type png)
 
-<use img/twitter_analyser_class_diagram.png>
-Package pdftex.def Info: img/twitter_analyser_class_diagram.png used on input l
-ine 24.
-(pdftex.def)             Requested size: 682.86617pt x 398.92346pt.
-
-
-LaTeX Warning: Float too large for page by 12.08308pt on input line 26.
+<use img/twitter_analyser_user_profile.png>
+Package pdftex.def Info: img/twitter_analyser_user_profile.png used on input li
+ne 128.
+(pdftex.def)             Requested size: 273.14923pt x 168.33545pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [23
+<img/twitter_analyser_relationship.png, id=247, 408.3255pt x 246.9225pt>
+File: img/twitter_analyser_relationship.png Graphic file (type png)
+
+<use img/twitter_analyser_relationship.png>
+Package pdftex.def Info: img/twitter_analyser_relationship.png used on input li
+ne 134.
+(pdftex.def)             Requested size: 273.14923pt x 165.18098pt.
 
 
- <./img/twitter_analyser_1.png>]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<img/twitter_analyser_compute_retweeters_nodes.png, id=248, 660.66824pt x 463.1
+3025pt>
+File: img/twitter_analyser_compute_retweeters_nodes.png Graphic file (type png)
+
+ <use img/twitter_analyser_compute_retweeters_nodes.png>
+Package pdftex.def Info: img/twitter_analyser_compute_retweeters_nodes.png used
+ on input line 140.
+(pdftex.def)             Requested size: 455.24411pt x 319.12914pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24 <./img/twitter_analyser_thanks_giving_2.png> <./img/twitter_analyser_thanks
-_giving_1.png>]
+[27 <./img/twitter_analyser_process_data_2.png>]
+<img/twitter_analyser_help.png, id=255, 398.6895pt x 316.7835pt>
+File: img/twitter_analyser_help.png Graphic file (type png)
+
+<use img/twitter_analyser_help.png>
+Package pdftex.def Info: img/twitter_analyser_help.png used on input line 158.
+(pdftex.def)             Requested size: 273.14923pt x 217.03404pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/twitter_analyser_class_diagram.png, id=256, 907.2294pt x 529.98pt>
+File: img/twitter_analyser_class_diagram.png Graphic file (type png)
+
+<use img/twitter_analyser_class_diagram.png>
+Package pdftex.def Info: img/twitter_analyser_class_diagram.png used on input l
+ine 164.
+(pdftex.def)             Requested size: 682.86617pt x 398.92346pt.
+
+
+LaTeX Warning: Float too large for page by 1.08308pt on input line 166.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25 <./img/twitter_analyser_class_diagram.png>] [26
+[28]
 
-] (chapters/chapter_8.tex
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29 <./img/twitter_analyser_twitter_user.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30 <./img/twitter_analyser_keyword.png> <./img/twitter_analyser_interested_in_
+relation.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31 <./img/twitter_analyser_retweeted_to_relation.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32 <./img/big_data_neo4j.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33 <./img/twitter_analyser_websocket_configuration_2.png> <./img/twitter_analy
+ser_websocket_configuration_1.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[34 <./img/twitter_analyser_thanks_giving_1.png> <./img/twitter_analyser_user_p
+rofile.png> <./img/twitter_analyser_relationship.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[35 <./img/twitter_analyser_compute_retweeters_nodes.png> <./img/twitter_analys
+er_help.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36 <./img/twitter_analyser_class_diagram.png>] (chapters/chapter_8.tex
 Rozdzia\l  7.
-) [27
+) [37
 
-] [28
+
+] [38
 
 ] (chapters/chapter_9.tex
 Rozdzia\l  8.
-) [29
+) [39
 
-] [30
+] [40
 
 ] (back_matter/bibliography.tex
 
@@ -2199,12 +2439,19 @@ Overfull \hbox (38.36964pt too wide) in paragraph at lines 32--33
 za-[]sentymentu-[]oraz-[]jak-[]mozesz-[]ja-[]wykorzystac/$[]
  []
 
-)
+[41
+
+
+])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
- [31
 
 
-]
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[42]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
  (thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 28.
@@ -2221,13 +2468,13 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
  ) 
 Here is how much of TeX's memory you used:
- 32380 strings out of 493328
- 575923 string characters out of 3136538
- 1108588 words of memory out of 3000000
- 35404 multiletter control sequences out of 15000+200000
+ 32537 strings out of 493328
+ 580254 string characters out of 3136538
+ 1110163 words of memory out of 3000000
+ 35501 multiletter control sequences out of 15000+200000
  653592 words of font info for 117 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,11n,63p,1389b,2470s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,12n,63p,1875b,2471s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/inconsolata/i4-t1-0.enc}{C
 :/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/enc/dvips/pl/plrm.enc}{C:/Program Files (x86)/MiKTeX 2.9
@@ -2237,9 +2484,9 @@ ype1/public/pl/plr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/p
 l/plsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on thesis.pdf (39 pages, 1837356 bytes).
+Output written on thesis.pdf (50 pages, 2226643 bytes).
 PDF statistics:
- 333 PDF objects out of 1000 (max. 8388607)
- 83 named destinations out of 1000 (max. 500000)
- 140 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 442 PDF objects out of 1000 (max. 8388607)
+ 119 named destinations out of 1000 (max. 500000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
 
